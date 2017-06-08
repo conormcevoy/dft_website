@@ -1,0 +1,109 @@
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+html{
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    body {
+        background-color: #fff;
+    }
+    div {
+        width: auto;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 1em;
+    }
+}
+
+header{
+    background-color: black;
+}
+
+.mainHeader{
+    display: flex;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.headerImage{
+    flex-grow: 1;
+    max-width: 500px;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.mainSlider{
+    width: 50%;
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer{
+    position: static;
+    bottom:0;
+    margin-left:40%;
+    margin-right: 40%;
+}
+
+.description{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.artists-images{
+    border-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.release-images{
+    border-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.social_links{
+    border: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+    align-items: right;
+    align-content: right;
+    align-self: right;
+    background-color: black;
+}
+
+.mainText{
+    test-align: center;
+}
+
+.main-nav-bar {
+    width: 100%;
+    display: flex;
+}
+
+.nav-items {
+    flex-grow: 1;
+    font-size: 2em;
+    color: white;
+    margin-left: 10px;
+    bottom: 10px;
+    background-color: black;
+    border: 2px
+}
